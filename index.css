@@ -28,7 +28,7 @@ body {
     background-color: #ca6702;
 }
 
-h1 {
+h1, h2 {
     letter-spacing: 2px;
     text-align: center;
     color: white;
@@ -39,7 +39,7 @@ input {
     display: block;
     border: none;
     height: 30px;
-    background: white;
+    background: #caf0f8;
     border-radius: 6px;
     text-align: center;
 }
@@ -60,3 +60,17 @@ button {
     margin: 10px 0 0;
 }
 
+#sample-emojis{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 40px auto;
+    letter-spacing: 4px;
+    background-color: #caf0f8;
+
+}
+
+    
